@@ -1,0 +1,28 @@
+{
+  "name": "daily-news-headlines",
+  "description": "Collect and summarize top world, business, weather, and sports headlines from the last 24 hours.",
+  "promptFile": "prompts/daily-news-headlines.prompt.md",
+  "model": "gemini-2.5-pro",
+  "temperature": 0.2,
+  "maxOutputTokens": 2048,
+  "responseFormat": {
+    "style": "rich-text",
+    "requirements": [
+      "headings",
+      "bold",
+      "bullet-points",
+      "line-breaks",
+      "emojis",
+      "linked-sources"
+    ]
+  },
+  "constraints": {
+    "timeWindowHours": 24,
+    "mustIncludeDirectArticleLinks": true,
+    "linkLabel": "link",
+    "noIntroPreamble": true,
+    "noOpinionOrCommentary": true,
+    "deduplicateHeadlines": true
+  },
+  "sections": ["world-events", "business", "extreme-weather", "sports"]
+}
