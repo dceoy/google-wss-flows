@@ -1,8 +1,8 @@
-# google-wss-news-summarizer
+# google-wss-flows
 
-News summarizer using Google Workspace Studio
+Prompts for Google Workspace Studio flows
 
-[![CI](https://github.com/dceoy/google-wss-news-summarizer/actions/workflows/ci.yml/badge.svg)](https://github.com/dceoy/google-wss-news-summarizer/actions/workflows/ci.yml)
+[![CI](https://github.com/dceoy/google-wss-flows/actions/workflows/ci.yml/badge.svg)](https://github.com/dceoy/google-wss-flows/actions/workflows/ci.yml)
 
 ## Added assets
 
