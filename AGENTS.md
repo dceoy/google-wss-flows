@@ -5,7 +5,7 @@
 This repository is intentionally small and content-focused.
 
 - `README.md`: high-level project description.
-- `prompts/`: reusable prompt templates, currently `daily-news-headlines.prompt.md`.
+- `prompts/`: reusable prompt templates, currently `daily-news-headlines.prompt.md` and `daily-analyze-market-news.md`.
 - `.github/workflows/ci.yml`: CI definition (shell/workflow linting and Dependabot auto-merge flow).
 - `.agents/skills/`: local agent skills and scripts used for maintenance tasks (for example local QA).
 
